@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+   <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .one {
+      width: 30%;
+      margin: 20px auto;
+      border-radius: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: lighter;
+      background-color: white;
+      padding-bottom: 30px;      
+    }
+    .para {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    .two {
+      /* padding: 10px auto; */
+      width: 80%;  
+      margin: auto;  
+      /* border: 1px solid black; */
+    }
+    body {
+      background-image: url('pattern-background-desktop.svg');
+      background-repeat: no-repeat;
+      background-color: rgba(135, 206, 295, 0.2);
+      font-weight:bolder;
+    } 
+    .one img{
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .two img{
+      height: 40px;
+      width: 40px;
+      float: left;
+      vertical-align: baseline;
+     /* margin-right: 10px; */
+    }
+ 
+     section {
+      margin: 20px auto;
+     }
+    
+    article {
+      width: 50%;
+      height: 70px;
+      float: left;
+      padding: 10px; 
+      background-color: rgb(250,250,250);
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+    
+    }
+    article img{
+      margin-right: 10px;
+    }
+    nav {
+      float: left;
+      background-color: rgb(250,250,250);;
+      width: 35%;
+      padding: 10px;
+      height: 70px;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+    nav p{
+      padding-top: 12px;
+      text-align: right;
+      padding-right: 10px;
+    }
+    button {
+      border-radius: 10px;
+      width: 100%;
+      margin: 5px auto;
+      height: 40px;
+      border: none;
+      
+    }
+    button:hover {
+      background-color: rgb(200,200,200);
+    }
+    a:hover {
+      color: red;
+    }
+    .button1 {
+      background-color: blue;
+      color: white;
+      margin-top: 20px;
+      transition: 0.4s ease;
+    }
+    .button2 {
+      background-color: rgb(254, 254, 255);
+      transition: 0.4s ease;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="one">
+    <img src="illustration-hero.svg" alt="hero">
+  <h2>Order Summary</h2>
+
+  <p class="para">You can now listen to millions of songs,<br>audiobooks, and podcasts on any 
+  device<br>anywhere you like!</p>
+
+  <div class="two">
+     <section>
+      <article>
+      <p><img src="icon-music.svg" alt="icon"><b>Annual Plan</b><br>
+        $59.99/year </p>
+      </article>
+      <nav>
+       <p><a href="#" target="_blank">Change</a></p>
+      </nav>
+     </section>
+  
+  <button type="button" class="button1">Proceed to Payment</button>
+  <button type="button" class="button2">Cancel Order</button>
+  
+</div>
+ 
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Cynthia Njoki</a>. -->
+  </div>
+</body>
+</html>
